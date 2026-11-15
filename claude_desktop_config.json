@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "costrail": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://www.food-cost-calculator.com/api/mcp"
+      ]
+    }
+  }
+}

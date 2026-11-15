@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.food-cost-calculator/costrail",
+  "title": "CostRail Food Cost Calculator",
+  "version": "1.0.0",
+  "websiteUrl": "https://www.food-cost-calculator.com",
+  "description": "Recipe food cost, butcher trim yield, and beverage pour cost calculations via Remote MCP.",
+  "repository": {
+    "url": "https://github.com/venkork/costrail-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.food-cost-calculator.com/api/mcp"
+    }
+  ]
+}

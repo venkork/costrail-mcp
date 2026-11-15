@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "costrail": {
+      "type": "http",
+      "url": "https://www.food-cost-calculator.com/api/mcp"
+    }
+  }
+}
