@@ -203,3 +203,23 @@ curl -sS -X POST https://www.food-cost-calculator.com/api/mcp \
 - **Support:** [support@food-cost-calculator.com](mailto:support@food-cost-calculator.com)
 - **Policies:** [Privacy Policy](https://www.food-cost-calculator.com/privacy) · [Terms of Service](https://www.food-cost-calculator.com/terms) · [Refund Policy](https://www.food-cost-calculator.com/refund)
 - **License:** [MIT](./LICENSE)
+
+## Zero-Install Stdio Bridge (`npx`)
+
+For stdio-only MCP clients (like Claude Desktop), connect without cloning or managing dependencies:
+
+```json
+{
+  "mcpServers": {
+    "costrail-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "github:venkork/costrail-mcp"
+      ]
+    }
+  }
+}
+```
+
+Or run directly via terminal: `npx -y github:venkork/costrail-mcp` (package ID: `costrail-mcp@1.0.0`).
