@@ -1,6 +1,6 @@
 {
   "name": "costrail-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Recipe food cost, butcher trim yield, and beverage pour cost calculations via Remote MCP.",
   "type": "module",
   "mcpName": "com.food-cost-calculator/costrail",
